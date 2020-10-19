@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./img/coin.jpg) round;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh;
+    display: block;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.content-bottom>button {
+    margin: 0 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border: none;
+    transition: all 0.2s;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: orange;
+}
+
+.content-bottom>button:hover {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: #ffffff;
+}
+
+.content-bottom>button:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.bar {
+    fill: rgb(0, 0, 0, 0.5);
+}
