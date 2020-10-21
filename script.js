@@ -36,7 +36,7 @@ function createSvgElement(update, useCurrentData) {
 
         //aqui é definido o eixo X com base no código da moeda
         const xScale = d3.scaleBand()
-            .domain(data.map(d => d.codigo))
+            .domain(data.map(d => d.code))
             .range([0, innerWidth])
             .padding(0.05);
 
@@ -100,7 +100,7 @@ function createSvgElement(update, useCurrentData) {
 
         //aqui é aplicado alguns estilos nas barras geradas
         bars
-            .attr('x', d => xScale(d.codigo))
+            .attr('x', d => xScale(d.code))
             .attr('y', innerHeight)
             .attr('width', xScale.bandwidth())
             .attr('height', 0)

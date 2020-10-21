@@ -1,41 +1,41 @@
 [{
     "name": "Dinar kuwaitiano",
     "value": 18.37,
-    "codigo": "KWD"
+    "code": "KWD"
 }, {
     "name": "Dinar do Bahrein",
     "value": 14.91,
-    "codigo": "BHD"
+    "code": "BHD"
 }, {
     "name": "Rial Omã",
     "value": 14.91,
-    "codigo": "OMR"
+    "code": "OMR"
 }, {
     "name": "Dinar Jordaniano",
     "value": 7.9,
-    "codigo": "JOD"
+    "code": "JOD"
 }, {
     "name": "Libra Esterlina",
     "value": 6.83,
-    "codigo": "GBP"
+    "code": "GBP"
 }, {
     "name": "Dólar das Ilhas Caymant ",
     "value": 6.84,
-    "codigo": "KYD"
+    "code": "KYD"
 }, {
     "name": "Euro",
     "value": 6.11,
-    "codigo": "EUR"
+    "code": "EUR"
 }, {
     "name": "Franco suíço",
     "value": 5.77,
-    "codigo": "CHF"
+    "code": "CHF"
 }, {
     "name": "Dólar americano",
     "value": 5.61,
-    "codigo": "USD"
+    "code": "USD"
 }, {
     "name": "Dólar Canadense",
     "value": 3.99,
-    "codigo": "CAD"
+    "code": "CAD"
 }]
